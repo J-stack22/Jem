@@ -6,6 +6,7 @@ const loadingMessages = [
     "Initializing graphical interface...",
     "Loading user preferences...",
     "Engaging security protocols...",
+    "Getting screen size...",
     "DedSec system active...",
     "Loading complete. Welcome to Err's World..."
 ];
