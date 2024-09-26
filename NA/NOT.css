@@ -1,0 +1,63 @@
+body {
+    background-color: #0a0a0a;
+    color: #2d02ad;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.construction-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2d02ad;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.glitch-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    position: relative;
+    color: #2d02ad;
+}
+
+.construction-message {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.return-container {
+    margin-top: 20px;
+}
+
+.return-button {
+    background-color: #2d02ad;
+    color: #0a0a0a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.return-button:hover {
+    background-color: #0a0a0a;
+    color: #2d02ad;
+    border: 1px solid #2d02ad;
+}
+
+.image-section {
+    margin-bottom: 20px;
+}
+
+.construction-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
