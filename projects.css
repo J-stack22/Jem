@@ -145,3 +145,58 @@ body {
     color: #2d02ad;
 }
 
+@media screen and (max-width: 600px){
+	nav {
+		width: 100%;
+		position: relative;
+	}
+	main {
+		width: 100%;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.information img {
+	  width: 500px;
+	}
+	.information h1{
+		font-size: 28px;
+	}
+	.card p{
+		padding: 0%;
+		font-size: 9px;
+		line-height: 11px;
+	  }
+	  .card h3{
+		  font-size: 12px;
+	   }
+	  .card {
+		  width: 160px;
+		  height: 200px;
+		  margin: 2px;
+	  }
+	  .cardcontainer{
+		width:100%;
+		margin-left: 0%;
+	  }
+	  h1 {
+		  font-size: 16px;
+		  line-height: 18px;
+		  margin-bottom: 5px;
+	  }
+	  p	{
+		  font-size: 10px;
+		  line-height: 12px;
+	  }
+	  main{
+		height: 100vh;
+	  }
+     }
+
+  @media screen and (max-width: 500px) {
+	.information img {
+	  width: 300px;
+	}
+  }
+
