@@ -25,6 +25,110 @@ body {
     margin: 0;
 }
 
+.video-body {
+    background-color: #0a0a0a;
+    color: #2d02ad;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    border: 2px solid #2d02ad;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* directory css stuff */
+
+body.linux-directory {
+    background-color: #0a0a0a;
+    color: #2d02ad;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terminal {
+    background-color: #0b070e;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 2px solid #2d02ad;
+}
+
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #251b27;
+    padding: 5px 10px;
+    border-bottom: 2px solid #2d02ad;
+    color: #ddd;
+}
+
+.terminal-btns {
+    display: flex;
+    gap: 5px;
+}
+
+.terminal-btns .btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+.terminal-title {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.terminal-body {
+    padding: 20px;
+    font-size: 1.2em;
+    color: #2d02ad;
+    line-height: 1.5;
+}
+
+.directory-listing {
+    white-space: pre;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.directory-link {
+    color: #2d02ad;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.directory-link:hover {
+    color: #ddd;
+}
+
+/* figure out later (PLEASE DO) */
 
 .container {
     text-align: center;
