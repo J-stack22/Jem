@@ -1,0 +1,1 @@
+This is a website that i *used* for a while before realizing that the website is just horribly put down and looks terrible. as of 2/17/2026 the *vibecoded* about me page will no longer be worked on nor cared about.
